@@ -71,8 +71,8 @@ Key Concepts: Code generation, instruction selection, register allocation.
 Objective: Learn and implement experiments using LEX for lexical analysis and YACC for parser generation, automating the process of building language parsers and analyzers.
 Key Concepts: LEX, YACC, syntax trees, grammar definitions, language processing.
 
-
----------------Contribution----------------------------
+-----------
+Contribution
 
 Contributions are welcome! If you have additional programs or corrections, feel free to:
 
