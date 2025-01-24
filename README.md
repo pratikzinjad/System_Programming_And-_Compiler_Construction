@@ -1,8 +1,9 @@
 # System Programming and Compiler Construction (SPCC)
 
 Welcome to the System Programming and Compiler Construction (SPCC) repository! This repository is designed for students learning SPCC under the Mumbai University syllabus. It contains practical programs and assignments with detailed explanations to help students understand the concepts of system-level programming and compiler design.
+------------------------------------------------------------------------------------------------------------------------------------------
 
------------------------------About the Repository---------------------------------------
+About the Repository
 
 This repository includes:
 
@@ -11,10 +12,13 @@ This repository includes:
 3.Conceptual explanations and sample inputs/outputs.
 4.Aligned with the Mumbai University syllabus for the SPCC course.
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
 The repository is maintained by Pratik Zinjad, Teaching Assistant at Saraswati College of Engineering, Navi Mumbai, to assist students in mastering system programming and compiler construction.
 
-----------------------------------------------------Requirements------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Requirements
 
 To run the programs in this repository, you need:
 
@@ -22,13 +26,14 @@ To run the programs in this repository, you need:
 2.Flex (Fast Lexical Analyzer Generator) for lexical analysis programs.
 3.Yacc or Bison for parser-related programs.
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
-
----------------Syllabus Description-----------------------------------------
+Syllabus Description
 
 This repository contains a collection of experiments designed to provide hands-on experience with key concepts in compiler design, programming languages, and software development. The following experiments are intended to give students and practitioners the practical knowledge required for building different components of a compiler or similar systems.
+------------------------------------------------------------------------------------------------------------------------------------------
 
------------List of Experiments---------------------------------------------------
+List of Experiments
 
 -1.Implementation of Two-Pass Assembler
 
@@ -71,7 +76,8 @@ Key Concepts: Code generation, instruction selection, register allocation.
 Objective: Learn and implement experiments using LEX for lexical analysis and YACC for parser generation, automating the process of building language parsers and analyzers.
 Key Concepts: LEX, YACC, syntax trees, grammar definitions, language processing.
 
------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
 Contribution
 
 Contributions are welcome! If you have additional programs or corrections, feel free to:
@@ -81,7 +87,7 @@ Contributions are welcome! If you have additional programs or corrections, feel 
 3.Commit your changes and push to the branch.
 4.Open a pull request with a detailed description.
 
----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 Contact:
 For any questions or assistance, feel free to reach out:
 
