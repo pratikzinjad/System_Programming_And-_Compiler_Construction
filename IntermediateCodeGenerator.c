@@ -128,7 +128,7 @@ int factor() {
 
 int term() {
     int result = factor();
-    char tempVar1[10], tempVar2[10]; 
+    char tempVar1[10], tempVar2[10], tempVar3[10]; 
     sprintf(tempVar1, "t%d", tempCount - 1); // Use the previous temporary variable
 
     while (currentToken.type == OPERATOR && (currentToken.op == '*' || currentToken.op == '/')) {
@@ -138,11 +138,11 @@ int term() {
         sprintf(tempVar2, "t%d", tempCount - 1); // Use the previous temporary variable
 
         if (op == '*') {
-            sprintf(tempVar1, "t%d", tempCount++);
-            generateIntermediateCode("*", tempVar1, tempVar2, tempVar1); 
+            sprintf(tempVar3, "t%d", tempCount++);
+            generateIntermediateCode("*", tempVar1, tempVar2, tempVar3); 
         } else if (op == '/') {
-            sprintf(tempVar1, "t%d", tempCount++);
-            generateIntermediateCode("/", tempVar1, tempVar2, tempVar1); 
+            sprintf(tempVar3, "t%d", tempCount++);
+            generateIntermediateCode("/", tempVar1, tempVar2, tempVar3); 
         }
     }
     return result;
@@ -150,7 +150,7 @@ int term() {
 
 int expr() {
     int result = term();
-    char tempVar1[10], tempVar2[10]; 
+    char tempVar1[10], tempVar2[10], tempVar3[10]; 
     sprintf(tempVar1, "t%d", tempCount - 1); // Use the previous temporary variable
 
     while (currentToken.type == OPERATOR && (currentToken.op == '+' || currentToken.op == '-')) {
@@ -160,11 +160,11 @@ int expr() {
         sprintf(tempVar2, "t%d", tempCount - 1); // Use the previous temporary variable
 
         if (op == '+') {
-            sprintf(tempVar1, "t%d", tempCount++);
-            generateIntermediateCode("+", tempVar1, tempVar2, tempVar1); 
+            sprintf(tempVar3, "t%d", tempCount++);
+            generateIntermediateCode("+", tempVar1, tempVar2, tempVar3); 
         } else if (op == '-') {
-            sprintf(tempVar1, "t%d", tempCount++);
-            generateIntermediateCode("-", tempVar1, tempVar2, tempVar1); 
+            sprintf(tempVar3, "t%d", tempCount++);
+            generateIntermediateCode("-", tempVar1, tempVar2, tempVar3); 
         }
     }
     return result;
