@@ -3,6 +3,7 @@
 Welcome to the System Programming and Compiler Construction (SPCC) repository! This repository is designed for students learning SPCC under the Mumbai University syllabus. It contains practical programs and assignments with detailed explanations to help students understand the concepts of system-level programming and compiler design.
 
 -----------------------------About the Repository---------------------------------------
+
 This repository includes:
 
 1.Programs and examples for system programming (assemblers, loaders, linkers, etc.).
@@ -14,6 +15,7 @@ This repository includes:
 The repository is maintained by Pratik Zinjad, Teaching Assistant at Saraswati College of Engineering, Navi Mumbai, to assist students in mastering system programming and compiler construction.
 
 ----------------------------------------------------Requirements------------------------------------------
+
 To run the programs in this repository, you need:
 
 1.A C compiler (e.g., GCC or Turbo C).
@@ -23,9 +25,11 @@ To run the programs in this repository, you need:
 
 
 ---------------Syllabus Description-----------------------------------------
+
 This repository contains a collection of experiments designed to provide hands-on experience with key concepts in compiler design, programming languages, and software development. The following experiments are intended to give students and practitioners the practical knowledge required for building different components of a compiler or similar systems.
 
 -----------List of Experiments---------------------------------------------------
+
 -1.Implementation of Two-Pass Assembler
 
 Objective: Implement a two-pass assembler to translate assembly language code into machine code. The first pass generates symbol tables, while the second pass handles code generation and linking.
@@ -69,6 +73,7 @@ Key Concepts: LEX, YACC, syntax trees, grammar definitions, language processing.
 
 
 ---------------Contribution----------------------------
+
 Contributions are welcome! If you have additional programs or corrections, feel free to:
 
 1.Fork this repository.
