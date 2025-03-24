@@ -71,6 +71,34 @@ getch();
 
 
 /*
+
+minp2.txt
+
+EX1	MACRO	&A,&B
+-	LDA	&A
+-	STA	&B
+-	MEND	-
+SAMPLE	START	1000
+-	EX1	N1,N2
+N1	RESW	1
+N2	RESW	1
+-	END	-
+
+
+ntab2.txt
+
+EX1
+
+
+
+dtab2.txt
+
+EX1	&A,&B
+LDA	&A
+STA	&B
+MEND
+
+
 atab2.txt
 
 N1
